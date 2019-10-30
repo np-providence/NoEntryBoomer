@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @enrolled_user.name %>
+</p>
+
+<p>
+  <strong>Userid:</strong>
+  <%= @enrolled_user.userId %>
+</p>
+
+<p>
+  <strong>Photoencoding:</strong>
+  <%= @enrolled_user.photoEncoding %>
+</p>
+
+<%= link_to 'Edit', edit_enrolled_user_path(@enrolled_user) %> |
+<%= link_to 'Back', enrolled_users_path %>
