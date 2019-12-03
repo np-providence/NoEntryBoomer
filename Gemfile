@@ -36,6 +36,8 @@ gem 'devise'
 gem 'jquery-rails', '~> 4.3'
 gem "wysiwyg-rails"
 gem 'public_activity'
+gem 'carrierwave'
+gem 'carrierwave-base64'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -52,6 +54,7 @@ group :development do
   gem 'better_errors'
   gem 'guard'
   gem 'guard-livereload'
+  gem 'binding_of_caller'
 end
 
 group :test do

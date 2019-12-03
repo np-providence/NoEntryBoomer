@@ -15,6 +15,7 @@ class EnrolledUsersController < ApplicationController
   # GET /enrolled_users/new
   def new
     @enrolled_user = EnrolledUser.new
+    @photo_encoding = ''
   end
 
   # GET /enrolled_users/1/edit

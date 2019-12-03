@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_30_113739) do
+ActiveRecord::Schema.define(version: 2019_11_05_152615) do
 
   create_table "enrolled_users", force: :cascade do |t|
     t.string "name"
-    t.integer "userId"
+    t.string "userId"
     t.string "photoEncoding"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
